@@ -89,7 +89,7 @@ def test_segmentation():
     plt.show()
 
 
-@pytest.mark.skip(reason="no way of currently testing this")
+@pytest.mark.skip(reason="already tested")
 def test_align_images():
     pass
     os.chdir(rootpath)
@@ -102,7 +102,7 @@ def test_align_images():
     clean_up()
 
 
-@pytest.mark.skip(reason="no way of currently testing this")
+@pytest.mark.skip(reason="already tested")
 def test_build_spectra():
     pass
     coordinates = set_up()
@@ -111,7 +111,7 @@ def test_build_spectra():
     clean_up()
 
 
-@pytest.mark.skip(reason="no way of currently testing this")
+@pytest.mark.skip(reason="already tested")
 def test_plot_spectra():
     pass
     coordinates = set_up()
